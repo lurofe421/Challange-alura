@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #888c92;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.corp {
+    display: flex;
+    justify-content: space-between;
+    background-color: #84b47a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    max-width: 100%;
+    margin: 20px auto;
+    flex: 1;
+}
+
+.input-section {
+    width: 60%; /* Reduzido para alinhar com a imagem */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.input-section textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+}
+
+.input-section p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.input-section .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.input-section .buttons button {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-section .buttons .encrypt-btn {
+    background-color: #42464d;
+    color: #ffffff;
+    border: 1px solid #002D6B;
+}
+
+.input-section .buttons .decrypt-btn {
+    background-color: #F1F4FA;
+    color: #002D6B;
+    border: 1px solid #002D6B;
+}
+
+.message-section {
+    width: 35%; /* Ajustado para alinhar melhor com a input-section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.message-section img {
+    width: 90%; /* A imagem ocupará 75% da largura do container */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.message-section p {
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #42464d;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.retorno {
+    display: flex;
+    text-align: left;
+}
